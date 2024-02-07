@@ -5,7 +5,7 @@
 
 <img src="/apresentacao.gif" style="width:900px">
 
-### Recursos / Features:
+### :computer: Recursos / Features:
 - [x] Gerenciamento de Candidatos; Candidate management;
 - [x] Gerenciamento de Usuários; User management; Phrase management; 
 - [x] Aplicação de teste com métricas de desempenho de teclas digitadas por minuto TPM, Precisão, erros, acertos, total de teclas digitadas, horário de início, horário de término; Application of the test with performance metrics of keystrokes per minute TPM, Precision, errors, successes, total keystrokes, start time, end time.
@@ -21,8 +21,8 @@
 - Após os testes o resultado poderá ser visualizado na área administrativa com os respectivos colocações por desempenho / - After the tests, the results can be viewed in the administrative area with the respective rankings by performance. 
 
 
-## Tecnologias utilizadas / technologies used:
-- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/jquery/jquery-original-wordmark.svg' style="width:20px" /> Jquery
-- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/bootstrap/bootstrap-original.svg' style="width:20px" /> Bootstrap
+## :rocket: Tecnologias utilizadas / technologies used:
+- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/jquery/jquery-original-wordmark.svg' style="width:30px" /> Jquery
+- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/bootstrap/bootstrap-original.svg' style="width:30px" /> Bootstrap
 - Laminas
-- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/php/php-original.svg' style="width:20px" /> PHP 8.0.25
+- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/php/php-original.svg' style="width:30px" /> PHP 8.0.25
