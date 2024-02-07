@@ -22,7 +22,7 @@
 
 
 ## Tecnologias utilizadas / technologies used:
-- Jquery
-- Bootstrap
+- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/jquery/jquery-original-wordmark.svg' /> Jquery
+- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/bootstrap/bootstrap-original.svg' /> Bootstrap
 - Laminas
-- PHP 8.0.25
+- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/php/php-original.svg' /> PHP 8.0.25
