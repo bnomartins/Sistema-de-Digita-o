@@ -22,7 +22,7 @@
 
 
 ## Tecnologias utilizadas / technologies used:
-- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/jquery/jquery-original-wordmark.svg' style="width:8px" /> Jquery
-- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/bootstrap/bootstrap-original.svg' style="width:8px" /> Bootstrap
+- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/jquery/jquery-original-wordmark.svg' style="width:20px" /> Jquery
+- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/bootstrap/bootstrap-original.svg' style="width:20px" /> Bootstrap
 - Laminas
-- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/php/php-original.svg' style="width:8px" /> PHP 8.0.25
+- <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/php/php-original.svg' style="width:20px" /> PHP 8.0.25
