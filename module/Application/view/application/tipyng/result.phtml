@@ -1,0 +1,39 @@
+<?php
+/**
+ * @var Laminas\View\Renderer\PhpRenderer $this
+ */
+?>
+<div class="jumbotron">
+
+    <?php
+        if(isset($msg)){
+            ?>
+                <div class="alert alert-info"><?= $msg ?></div>
+            <?php
+        }
+    ?>
+    <h1 class="text-center">Teste de Digitação</h1>
+    <form action="/tipyng/prepare" method="POST">
+        <input type="text" name="cpf" id="cpf" placeholder="Digite o seu CPF" class="form-control"/>
+        <button class="form-control btn btn-primary" id="btnTipyng">OK</button>
+    </form>
+
+</div>
+
+
+
+<?= $this->inlineScript()
+            ->prependFile($this->basePath('js/bootstrap.min.js'))
+            ->prependFile($this->basePath('js/jquery-3.5.1.min.js')) ?>
+
+
+<script>
+    // $(document).ready(function(){
+
+    //     $("#btnTipyng").click(function(){
+    //         const cpf = $("#cpf").val()
+    //         alert(cpf)
+    //     })
+
+    // })
+</script>

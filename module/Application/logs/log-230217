@@ -1,0 +1,497 @@
+2023-02-17T11:43:20-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidate FROM': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T11:43:20-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:43:20-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:43:20-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:43:20-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:43:20-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":328}
+2023-02-17T11:43:20-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":328}
+2023-02-17T11:43:53-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidate FROM': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T11:43:53-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:43:53-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:43:53-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:43:53-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:43:53-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":328}
+2023-02-17T11:43:53-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":328}
+2023-02-17T11:44:04-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidate FROM': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T11:44:04-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:44:04-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:44:04-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:44:04-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:44:04-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":328}
+2023-02-17T11:44:04-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":328}
+2023-02-17T11:44:45-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidate FROM': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T11:44:45-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:44:45-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:44:45-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:44:45-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:44:45-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":328}
+2023-02-17T11:44:45-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":328}
+2023-02-17T11:44:58-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidate FROM': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T11:44:58-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:44:58-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:44:58-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:44:58-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:44:58-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:44:58-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:45:41-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidate_id': Error: Class Application\Entity\Candidate\Typing has no field or association named candidate_id
+2023-02-17T11:45:41-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:45:41-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:45:41-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:45:41-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:45:41-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:45:41-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:45:42-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidate_id': Error: Class Application\Entity\Candidate\Typing has no field or association named candidate_id
+2023-02-17T11:45:42-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:45:42-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:45:42-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:45:42-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:45:42-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:45:42-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:46:38-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidate_id': Error: Class Application\Entity\Candidate\Typing has no field or association named candidate_id
+2023-02-17T11:46:38-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:46:38-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:46:38-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:46:38-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:46:38-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:46:38-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:48:22-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidate FROM': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T11:48:22-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:48:22-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:48:22-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:48:22-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:48:22-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:48:22-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:48:30-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidate_id': Error: Class Application\Entity\Candidate\Typing has no field or association named candidate_id
+2023-02-17T11:48:30-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:48:30-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:48:30-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:48:30-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:48:30-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:48:30-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:48:42-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidate FROM': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T11:48:42-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:48:42-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:48:42-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:48:42-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:48:42-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:48:42-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:48:50-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidate FROM': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T11:48:50-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:48:50-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:48:50-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:48:50-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:48:50-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:48:50-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:55:03-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidateId FROM': Error: Class Application\Entity\Candidate\Typing has no field or association named candidateId
+2023-02-17T11:55:03-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:55:03-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:55:03-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:55:03-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:55:03-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:55:03-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:55:13-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 218 near 'candidate_id': Error: Class Application\Entity\Candidate\Typing has no field or association named candidate_id
+2023-02-17T11:55:13-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:55:13-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:55:13-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:55:13-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:55:13-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:55:13-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:55:52-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate_id,': Error: Class Application\Entity\Candidate\Typing has no field or association named candidate_id
+2023-02-17T11:55:52-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:55:52-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:55:52-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:55:52-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:55:52-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:55:52-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:56:10-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate, c.cpf,': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T11:56:10-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:56:10-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:56:10-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:56:10-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:56:10-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:56:10-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:56:12-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate, c.cpf,': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T11:56:12-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:56:12-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:56:12-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:56:12-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:56:12-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:56:12-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:56:14-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate, c.cpf,': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T11:56:14-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:56:14-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T11:56:14-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:56:14-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T11:56:14-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T11:56:14-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:15:20-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate, t.characters,': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T12:15:20-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:15:20-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:15:20-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:15:20-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:15:20-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:15:20-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:17:10-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate, t.characters,': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T12:17:10-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:17:10-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:17:10-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:17:10-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:17:10-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:17:10-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:17:12-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate, t.characters,': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T12:17:12-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:17:12-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:17:12-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:17:12-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:17:12-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:17:12-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:17:23-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate, t.characters,': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T12:17:23-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:17:23-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:17:23-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:17:23-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:17:23-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:17:23-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:17:28-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate, t.characters,': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T12:17:28-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:17:28-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:17:28-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:17:28-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:17:28-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:17:28-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:18:25-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate, t.characters,': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T12:18:25-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:18:25-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:18:25-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:18:25-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:18:25-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T12:19:39-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate, t.characters,': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T12:19:39-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:19:39-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:19:39-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:19:39-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:19:39-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T12:19:39-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:19:39-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:23:58-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate_id,': Error: Class Application\Entity\Candidate\Typing has no field or association named candidate_id
+2023-02-17T12:23:58-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:23:58-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:23:58-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:23:58-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:23:58-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T12:23:58-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:23:58-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:24:07-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate_id,': Error: Class Application\Entity\Candidate\Typing has no field or association named candidate_id
+2023-02-17T12:24:07-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:24:07-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:24:07-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:24:07-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:24:07-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T12:24:07-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:24:07-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:24:11-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate, t.characters,': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T12:24:11-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:24:11-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:24:11-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:24:11-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:24:11-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T12:24:11-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:24:11-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:24:22-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidateId,': Error: Class Application\Entity\Candidate\Typing has no field or association named candidateId
+2023-02-17T12:24:22-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:24:22-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:24:22-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:24:22-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:24:22-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T12:24:22-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:24:22-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":327}
+2023-02-17T12:51:13-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate_id,': Error: Class Application\Entity\Candidate\Typing has no field or association named candidate_id
+2023-02-17T12:51:13-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:51:13-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T12:51:13-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:51:13-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T12:51:13-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T12:51:13-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T13:15:56-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate, t.characters,': Error: Invalid PathExpression. Must be a StateFieldPathExpression.
+2023-02-17T13:15:56-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:15:56-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:15:56-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:15:56-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:15:56-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T13:15:56-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T13:16:58-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate_id,': Error: Class Application\Entity\Candidate\Typing has no field or association named candidate_id
+2023-02-17T13:16:58-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:16:58-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:16:58-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:16:58-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:16:58-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T13:16:58-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T13:18:26-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidate_id,': Error: Class Application\Entity\Candidate\Typing has no field or association named candidate_id
+2023-02-17T13:18:26-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:18:26-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:18:26-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:18:26-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:18:26-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T13:18:40-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 17 near 'id, t.characters,': Error: Class Application\Entity\Candidate\Typing has no field or association named c.id
+2023-02-17T13:18:40-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:18:40-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:18:40-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:18:40-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:18:40-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T13:18:48-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 13 near 'id, t.characters,': Error: 'id' is not defined.
+2023-02-17T13:18:48-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:18:48-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:18:48-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:18:48-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:18:48-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T13:19:04-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 15 near 'candidateId,': Error: Class Application\Entity\Candidate\Typing has no field or association named candidateId
+2023-02-17T13:19:04-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:19:04-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:19:04-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:19:04-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:19:04-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T13:20:06-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /adm/list, 
+ Método: GET  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: [Semantical Error] line 0, col 324 near 'candidate_id': Error: Class Application\Entity\Candidate\Typing has no field or association named candidate_id
+2023-02-17T13:20:06-03:00 WARN (4): Undefined variable $frases {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:20:06-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":144}
+2023-02-17T13:20:06-03:00 WARN (4): Undefined variable $users {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:20:06-03:00 WARN (4): foreach() argument must be of type array|object, null given {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":276}
+2023-02-17T13:20:06-03:00 WARN (4): Undefined variable $candidates {"errno":2,"file":"C:\\xampp\\htdocs\\projects\\module\\Application\\view\\application\\index\\list.phtml","line":326}
+2023-02-17T14:23:19-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /user/restrict, 
+ Método: POST  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: teste erro
+2023-02-17T16:44:34-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /user/restrict, 
+ Método: POST  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: Acesso Negado
+2023-02-17T16:44:47-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /user/restrict, 
+ Método: POST  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: Acesso Negado
+2023-02-17T16:45:58-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /user/restrict, 
+ Método: POST  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: Acesso Negado
+2023-02-17T16:46:27-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /user/restrict, 
+ Método: POST  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: Acesso Negado
+2023-02-17T16:46:48-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /user/restrict, 
+ Método: POST  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: Acesso Negado
+2023-02-17T16:47:59-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /user/restrict, 
+ Método: POST  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: Acesso Negado
+2023-02-17T16:50:30-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /user/restrict, 
+ Método: POST  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: Acesso Negado
+2023-02-17T17:18:18-03:00 ERR (3): 
+ IP: ::1, 
+ Rota: /tipyng/prepare, 
+ Método: POST  
+ Navegador: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+ Msg: Frases insuficientes. Contate o Administrador para regularizar.

@@ -1,0 +1,566 @@
+<?php
+/**
+ * @var Laminas\View\Renderer\PhpRenderer $this
+ */
+
+use Application\Custom\Convert;
+use Application\Custom\Log;
+
+// if ($typing->getCancel() == true || !isset($typing)) {
+
+  // dd($candidate);
+   ?>
+
+<main class="d-flex flex-nowrap" >
+
+<?php
+if ($block > 4) {
+    ?>
+
+<div class="container">
+
+  <fieldset>
+    <legend>Dados Pessoais:</legend>
+
+    <div class="row">
+      <div class="col-md-8">
+        <label for="cpf">CPF:<span style="color:red;font-weight:bold">*</span></label>
+        <input type='text' class="form-control" id="cpf" name="cpf" placeholder="Digite o número do seu CPF, para começar" value="<?= isset($candidate) ? $candidate->getCpf() : '' ?>" required/>
+      </div>
+      <div class="col-md-4">
+        <label for="process">PROCESSO SELETIVO:<span style="color:red;font-weight:bold">*</span></label>
+        <select class="form-select" aria-label="process" id="process" name="process" disabled>
+          <option value="<?= $process?>" selected><?= $process?></option>
+        </select>      
+      </div>
+    </div>
+
+    <div class="row">
+          <div class="col-md-4">
+              <label for="nome">Nome:</label>
+              <input type='text' class="form-control" id="nome" name="nome" placeholder="Digite o número o nome" value="<?= isset($candidate) ? $candidate->getNome() : '' ?>"/>
+          </div>
+          <div class="col-md-4">
+              <label for="social">Nome Social:</label>
+              <input type='text' class="form-control" id="social" name="social" placeholder="Digite o seu nome social (Se Houver)" value="<?= isset($candidate) ? $candidate->getSocial() : '' ?>"/>
+          </div>
+          <div class="col-md-4">
+              <label for="nascimento">Dt. Nasc.:<span style="color:red;font-weight:bold">*</span></label>
+              <input type='date' class="form-control" id="nascimento" name="nascimento" value="<?= isset($candidate) ? Convert::dateUsa($candidate->getNascimento()) : ''?>"/>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+              <label for="cpf">Telefone:<span style="color:red;font-weight:bold">*</span></label>
+              <input type='text' class="form-control" id="telefone" name="telefone" placeholder="(99) 99999-9999" value="<?= isset($candidate) ? $candidate->getTelefone() : '' ?>"/>
+          </div>
+          <div class="col-md-6">
+              <label for="email">email:<span style="color:red;font-weight:bold">*</span></label>
+              <input type='text' class="form-control" id="email" name="email" placeholder="Digite o endereço de e-mail" value="<?= isset($candidate) ? $candidate->getEmail() : '' ?>" required/>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+              <label for="cep">Cep:</label>
+              <input type='text' class="form-control" id="cep" name="cep" placeholder="Digite o seu CEP" value="<?= isset($candidate) ? $candidate->getCep() : '' ?>"/>
+          </div>
+          <div class="col-md-6">
+              <label for="endereco">Endereço:<span style="color:red;font-weight:bold">*</span></label>
+              <input type='text' class="form-control" id="endereco" name="endereco" placeholder="Digite o endereço de sua residência" value="<?= isset($candidate) ? $candidate->getEndereco() : '' ?>"/>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+              <label for="bairro">Bairro:<span style="color:red;font-weight:bold">*</span></label>
+              <input type='text' class="form-control" id="bairro" name="bairro" placeholder="Digite o bairro de sua residência" value="<?= isset($candidate) ? $candidate->getBairro() : '' ?>"/>
+          </div>
+          <div class="col-md-6">
+              <label for="cidade">Cidade:<span style="color:red;font-weight:bold">*</span></label>
+              <input type='text' class="form-control" id="cidade" name="cidade" placeholder="Digite a cidade de sua residência" value="<?= isset($candidate) ? $candidate->getCidade() : '' ?>"/>
+          </div>
+          <div class="col-md-6">
+              <label for="estado">Estado:<span style="color:red;font-weight:bold">*</span></label>
+              <input type='text' class="form-control" id="estado" name="estado" placeholder="Digite o estado de sua residência" value="<?= isset($candidate) ? $candidate->getEstado() : '' ?>"/>
+              <input type="hidden" name="id"  id="id" value="<?= isset($candidate) ? $candidate->getId() : '' ?>"/>
+        </div>
+      </div>
+    </br>
+    <div id="msgUpdate"></div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <button id="btnCorrecao" data-id="<?= isset($candidate) ? $candidate->getId() : '' ?>" class="btn btn-info">Salvar</button>
+      </div>
+    </div>
+
+  </fieldset>
+</br>
+  <fieldset>
+    <legend>
+      Regras:
+    </legend>
+    <ul class="list-group">
+      <li class="list-group-item">1 - Para liberaração do teste de digitação é necessário aceitar o termo abaixo.</li>
+      <li class="list-group-item">2 - O teste de digitação verificará a posição de cada letra digitada e comparará com cada posição da frase modelo. Portanto digite a frase como é apresentada no modelo.</li>
+      <li class="list-group-item">3 - Para passar para a próxima frase, pode usar a tecla enter ou clicar no botão próxima frase ao terminar de digitar a frase atual</li>
+      <li class="list-group-item">4 - O teste tem limite máximo de tempo de 10 minutos</li>
+    </ul>
+    <div class="alert alert-warning text-center">
+      <p>
+        Declaro que li e compreendi as regras do teste de digitação e que meus dados pessoais estão corretos
+      </p>
+    
+      <div class="form-check  form-check-inline">
+        <input class="form-check-input" type="radio" name="chk_regras" id="chk_regras_sim">
+        <label class="form-check-label" for="chk_regras_sim">
+          Sim
+        </label>
+      </div>
+      <div class="form-check form-check-inline">
+
+        <input class="form-check-input" type="radio" name="chk_regras" id="chk_regras_nao" checked>
+        <label class="form-check-label" for="chk_regras_nao">
+          Não
+        </label>      
+      </div>
+    </div>
+ 
+  </fieldset>
+
+  <fieldset>
+    <h1 class="text-center mt-20" id="titulo">Teste de Digitação</h1>
+    <button class="btn btn-primary btn-lg d-grid gap-4 col-6 mx-auto disabled" id="btn_iniciar">Iniciar</button>
+    <div id="inicializador"></div>
+    </br>
+    <h3 for="digitacao">Frase: </h3>
+    <div id="frase_escolhida" oncontextmenu="return false" onselectstart="return false"></div>
+    <div id="aviso_inicio"></div>
+    <div id="monitora_digitacao"></div>
+    </br>
+    <h3 for="digitacao">Digite aqui: </h3>
+    <div id="digitacao"></div>
+    <div id="msgTipyng"></div>
+    <button class="btn btn-primary btn-lg d-grid gap-4 col-6 mx-auto disabled" id="btn_proxima_frase">Enter ou clique para a próxima Frase</button>
+  </fieldset>
+
+  <footer class="text-center" style="margin: 20px;">
+    Desenvolvido Idtech - 2023
+  </footer>
+
+  <?php
+    } else {
+      (new Log())->Err('Frases insuficientes. Contate o Administrador para regularizar.');
+      ?>
+        <div class="alert alert-info w-100">Frases insuficientes. Contate o Administrador para regularizar.</div>
+      <?php
+    }
+  ?>
+
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" 
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+    <script>
+
+// document.onbeforeunload = function(e){
+//     e.preventDefault()
+// };
+
+
+$(document).ready(function(){
+    $("#cpf").mask("99999999999");
+    $("#telefone").mask("(99) 99999-9999");
+    $("#cep").mask("99999999");
+})
+
+  $(document).on('click', '#btnCorrecao', function(){
+    const id = $(this).data('id');
+    const nome = $("#nome").val();
+    const social = $("#social").val();
+    const cpf = $("#cpf").val();
+    const nascimento = $("#nascimento").val();
+    const telefone = $("#telefone").val();
+    const email = $("#email").val();
+    const cep = $("#cep").val();
+    const endereco = $("#endereco").val();
+    const bairro = $("#bairro").val();
+    const cidade = $("#cidade").val();
+    const estado = $("#estado").val();
+    const process = $("#process").val();
+    console.log(process)
+    if(!cpf || !email || !nascimento || !telefone || !email || !endereco || !bairro || !cidade || !estado || !process) {
+      alertify.alert('Aviso', `Campos de preenchimento obrigatório`);
+    } else {
+      $.ajax({ 
+        type : 'POST',
+        url : '/adm/saveOrUpdate',
+        data : {id, nome, social, cpf, nascimento, telefone, email, cep, endereco, bairro, cidade, estado},
+        dataType: 'html',
+        success: function(data){  
+            $('#msgUpdate').html(`<div class="alert alert-info alert-dismissible" role="alert">${data}<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>`)
+        },
+        error: function(jqXHR,textStatus,errorThrown){
+            var error = $.parseJSON(jqXHR.responseText);
+            var content = error.content;
+            console.log(content.message);
+            if(content.display_exceptions)
+            console.log(content.exception.xdebug_message);
+        },
+    }) ;  
+    }
+
+  })
+    var caracteres = 0
+    var erros = 0
+    var qtd = 5;
+    var frase_escolhida = "";
+    var tamanhoDigito = 0
+    var tamanhoFrase = 0
+    var arrsort = [];
+    var sort = 0;
+    
+    var dtInicio = 0
+    var dtFim = 0
+    var cont = 0
+    var s = 0
+    var tempomax = 600//600
+    var smax = 0
+    var tempo;
+    
+    var id;
+    var dtInicioTxt = ''
+    var dtFimTxt = ''
+    var acertos;
+    var tpm;
+    var precisao;
+    
+    $("#chk_regras_sim").click(function(){
+      const id = $("#id").val();
+      const nome = $("#nome").val();
+      const social = $("#social").val();
+      const cpf = $("#cpf").val();
+      const nascimento = $("#nascimento").val();
+      const telefone = $("#telefone").val();
+      const email = $("#email").val();
+      const cep = $("#cep").val();
+      const endereco = $("#endereco").val();
+      const bairro = $("#bairro").val();
+      const cidade = $("#cidade").val();
+      const estado = $("#estado").val();
+      const process = $("#process").val();
+
+      if(id && cpf && nascimento && telefone && email && endereco && bairro && cidade && estado && process){
+        $("#btn_iniciar").removeClass("disabled")
+      } else {
+        $('#chk_regras_sim').prop('checked', false);
+        alertify.alert('Aviso', `Campos de preenchimento obrigatório`);
+      }
+    })
+
+    $("#chk_regras_nao").click(function(){
+      $("#btn_iniciar").addClass("disabled")
+    })
+    $("#aviso_inicio").hide()
+
+    function inicializar(){
+      var seg = 6
+
+      var contador = setInterval(function(){
+        seg--
+        if (seg < 1){
+          $("#inicializador").html("")
+          $("#btn_iniciar").addClass("disabled")
+          $("#btn_proxima_frase").removeClass("disabled")
+          $("#digitacao").attr('contenteditable', 'true')
+          dtInicio = new Date()
+          gerarFrase()          
+          window.clearInterval(contador)
+          verificarTempo()
+        } else {
+          $("#inicializador").html(`
+            <div class="alert alert-info text-center h3">O teste inicializará em ${seg} segundos. Boa Sorte!</div>
+            `)
+        }
+
+      }, 1000)
+      
+    }
+
+    $("#btn_iniciar").click(function(){
+      inicializar()
+
+    })
+
+    $("#btn_proxima_frase").click(function(){
+      if(tamanhoDigito >= tamanhoFrase-20){
+            $("#digitacao").text("")
+            tamanhoDigito = 0
+            tamanhoFrase = 0
+            gerarFrase()
+          }
+    })
+
+    function verificarTempo(){
+      tempo = setInterval(() => {
+        smax++
+        if(smax >= tempomax){
+          window.clearInterval(tempo)
+          finalizar()
+        }
+        console.log(smax)
+      }, 1000);
+    }
+
+    function finalizar() {
+      $("#digitacao").attr('contenteditable', 'false')
+      $("#frase_escolhida").hide()
+      $("#aviso_inicio").text("Teste Finalizado. Obrigado !")
+      $("#aviso_inicio").show()
+
+      $("#btn_proxima_frase").addClass('disabled')
+      calcularTempo()
+      window.clearInterval(tempo)
+
+      enviarResultado()
+// erros, acertos, caracteres
+
+//       <div class="alert text-center">
+//           <button type="button" class="btn btn-lg btn-danger">
+//             Erros <span class="badge text-bg-dark">${erros}</span>
+//           </button>
+//           <button type="button" class="btn btn-lg btn-success">
+//             Acertos <span class="badge text-bg-dark">${caracteres-erros}</span>
+//           </button>
+//           <button type="button" class="btn btn-lg btn-warning">
+//             TPM <span class="badge text-bg-dark">${((caracteres)/(s*60)).toFixed(2)}</span>
+//           </button>
+//           <button type="button" class="btn btn-lg btn-info">
+//             Precisão <span class="badge text-bg-dark">${(((caracteres-erros)/(caracteres))*100).toFixed(2)}%</span>
+//           </button>
+//           <button type="button" class="btn btn-lg btn-secondary">
+//             Tempo <span class="badge text-bg-dark">${s}s</span>
+//           </button>
+//         </div>       
+
+    }
+
+
+    function enviarResultado(){
+      id = $("#id").val()
+      acertos = (caracteres-erros)
+      tpm = ((caracteres)/(s/60)).toFixed(2)
+      precisao = (((caracteres-erros)/(caracteres))*100).toFixed(2)
+      tpmp = ((precisao*tpm)/100).toFixed(2)
+      const process = $("#process").val();
+      // id5154, err53, ac126, crt179, t126.35, tp88.94 p70.39, s85, dti2023-02-15 12:21:48, dtf2023-015-15 12:23:13 proces2023-1
+      console.log(`id${id}, err${erros}, ac${acertos}, crt${caracteres}, t${tpm}, tp${tpmp} p${precisao}, s${s}, dti${dtInicioTxt}, dtf${dtFimTxt} proces${process}`)
+
+      $.ajax({ 
+        type : 'POST',
+        url : '/tipyng/register',
+        data : {id, erros, acertos, caracteres, tpm, tpmp, precisao, s, dtInicioTxt, dtFimTxt, process},
+        dataType: 'html',
+        success: function(data){ 
+          alertify.alert('Aviso', `${data}`);
+             // $('#msgTipyng').html(`</br><div class="alert alert-info alert-dismissible" role="alert">${data}<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>`)
+        },
+        error: function(jqXHR,textStatus,errorThrown){
+            var error = $.parseJSON(jqXHR.responseText);
+            var content = error.content;
+            console.log(content.message);
+            if(content.display_exceptions)
+            console.log(content.exception.xdebug_message);
+        },
+    });  
+    }
+
+    function sortearFrase(qtd_frase_escolhida){
+        
+        while(arrsort.includes(sort) && arrsort.length <= qtd){
+            sort = Math.floor(Math.random()*qtd_frase_escolhida)
+        }
+        arrsort.push(sort)
+
+        if(arrsort.length === qtd){
+          finalizar()
+        }
+        return sort
+
+    }
+
+    var carregarJson = function(json) {
+        return json;
+    }
+
+    function gerarFrase(){
+
+      <?php 
+
+      $arrFrases = [];
+
+      foreach($frases as $frase){
+      $arrFrases[] = (object) array('frase' => $frase->getPhrase());
+      }
+
+
+    //   $.getJSON('http://localhost:8888/myfile.php', function(data) {
+    //     console.log(data);
+    // });
+
+      // dd(json_encode($arrFrases));
+      // var_dump(json_encode($arrFrase));
+      //       {"frase":"A diretora-geral da Rede Estadual de Hemocentros - Rede Hemo, Denyse Goulart, junto com o gerente do Hemocentro de Catalão, Fernando Braga, e a responsável técnica da unidade, Gabriela Spacek, participou da primeira reunião ordinária de 2023 do Conselho Municipal de Saúde de Catalão. O encontro ocorreu na noite da última quarta-feira, 18 de janeiro, no prédio da Universidade Aberta do Brasil (UAB), em Catalão."},
+      //       {"frase":"Na tarde da última terça-feira, 17 de janeiro, os pacientes do Hospital Estadual Alberto Rassi - HGG participaram de mais uma edição da Oficina de Arte, conduzida pelo artista plástico Alexandre Liah. Os envolvidos no projeto puderam resgatar memórias afetivas durante a atividade. Aos poucos, os quadros brancos foram ganhando cores e se transformando."},
+
+      ?>
+
+      const frases = carregarJson(<?php echo json_encode($arrFrases); ?>);
+
+      // const frases = [
+
+      //       {"frase":"A diretora-geral da Rede Estadual de Hemocentros - Rede Hemo, Denyse Goulart, junto com o gerente do Hemocentro de Catalão, Fernando Braga, e a responsável técnica da unidade, Gabriela Spacek, participou da primeira reunião ordinária de 2023 do Conselho Municipal de Saúde de Catalão. O encontro ocorreu na noite da última quarta-feira, 18 de janeiro, no prédio da Universidade Aberta do Brasil (UAB), em Catalão."},
+      //       {"frase":"Na tarde da última terça-feira, 17 de janeiro, os pacientes do Hospital Estadual Alberto Rassi - HGG participaram de mais uma edição da Oficina de Arte, conduzida pelo artista plástico Alexandre Liah. Os envolvidos no projeto puderam resgatar memórias afetivas durante a atividade. Aos poucos, os quadros brancos foram ganhando cores e se transformando."},
+      //       {"frase":"O Hospital Estadual Alberto Rassi - HGG realizou entre os dias 17 e 18 de janeiro, o 1º Festival do Riso do HGG, e reuniu na programação palhaços, humoristas, performances e show com drag queen. As apresentações aconteceram no auditório Dr. Luiz Rassi e também no Ambulatório de Medicina Avançada (AMA) e Apoio Diagnóstico, abrangendo uma grande quantidade de pacientes, acompanhantes e colaboradores, que também ganharam sorrisos ilustrativos, o que deixou tudo ainda mais divertido. A iniciativa foi em celebração ao Dia Internacional do Riso, comemorado em 18 de janeiro."},
+      //       {"frase":"A partir do dia 20 de janeiro até o dia 23, estão abertas as inscrições, de forma gratuita, para o edital do processo seletivo para contratação de médico de intercorrência cirúrgica e clínica, intensivista e pneumologista, para atuar no Hospital Estadual Alberto Rassi - HGG, em regime da Consolidação das Leis Trabalhistas (CLT), além da formação de cadastro de reserva."},
+      //       {"frase":"O Núcleo de Segurança do Paciente (NSP) do Hospital Estadual Alberto Rassi - HGG monitora mensalmente as notificações e tratativas realizadas via sistema de notificações. Segundo a coordenadora do NSP, Aline Cristina Magalhães, o principal objetivo dessas notificações é contribuir de forma significativa para revelar os riscos que o cuidado em saúde representa para os pacientes."},
+      //       {"frase":"O Hospital Estadual Alberto Rassi - HGG realizou cirurgias do túnel do carpo durante força-tarefa realizada no último sábado, 14 de janeiro. Durante a ação, seis pacientes que aguardavam pelo procedimento na unidade de saúde foram atendidos."},
+      //       {"frase":"A Comissão de Controle de Infecção Hospitalar (CCIH) do Hospital Estadual Alberto Rassi - HGG, reuniu a equipe multidisciplinar do Centro de Terapia Intensiva (CTI), na manhã desta quarta-feira, 11 de janeiro, para revelar os resultados positivos resultantes das estratégias de prevenção às Infecções Relacionadas à Assistência à Saúde (IRAS), adotadas pela unidade. Ao todo, soma-se 2.386 cateter vesical/dia sem Infecção do Trato Urinário (ITU), e 672 ventiladores mecânicos/dia sem Pneumonia Associada à Ventilação Mecânica (PAV)."},
+      //       {"frase":"O Hospital Estadual Alberto Rassi - HGG surpreendeu mais uma vez, pacientes e colaboradores, com a apresentação do cantor Pablo Belusso, no Sarau do HGG, na última quinta-feira, 12 de dezembro. O artista, que tem mais de 10 anos de carreira, tocou vários instrumentos, atendeu a pedidos e levou um repertório com clássicos nacionais e internacionais do rock e MPB. O show aconteceu no Jardim da Solistência do hospital, e proporcionou um momento de muita alegria e diversão."},
+
+      //       ]
+
+      
+              const qtd_frases = frases.length
+              frase_escolhida = frases[sortearFrase(qtd_frases)].frase
+              $("#frase_escolhida").text(frase_escolhida)
+
+
+        // console.log("Frase escolhida"+fraseEscolhida[qtd]['frase'])
+        // console.log("Frase escolhida sort"+fraseEscolhida[sort]['frase'])          
+    }
+
+    function relatorioParcial(){
+      const relatorio = `
+      <div class="alert text-center">
+          <button type="button" class="btn btn-lg btn-danger">
+            Erros <span class="badge text-bg-dark">${erros}</span>
+          </button>
+          <button type="button" class="btn btn-lg btn-success">
+            Acertos <span class="badge text-bg-dark">${caracteres-erros}</span>
+          </button>
+          <button type="button" class="btn btn-lg btn-warning">
+            TPM <span class="badge text-bg-dark">${((caracteres)/(s*60)).toFixed(2)}</span>
+          </button>
+          <button type="button" class="btn btn-lg btn-info">
+            Precisão <span class="badge text-bg-dark">${(((caracteres-erros)/(caracteres))*100).toFixed(2)}%</span>
+          </button>
+          <button type="button" class="btn btn-lg btn-secondary">
+            Tempo <span class="badge text-bg-dark">${s}s</span>
+          </button>
+        </div>        
+      `
+      $("#monitora_digitacao").html(relatorio) 
+    }
+
+    function calcularTempo(){
+
+      dtFim = new Date()
+
+      const iD = dtInicio.getDate() > 9 ? dtInicio.getDate() : `0${dtInicio.getDate()}`;
+      const iM = dtInicio.getMonth()+1 > 9 ? dtInicio.getMonth()+1 : `0${dtInicio.getMonth()+1}`;
+      const iY = dtInicio.getFullYear();
+
+      const ih = dtInicio.getHours()> 9 ? dtInicio.getHours() : `0${dtInicio.getHours()}`;
+      const im = dtInicio.getMinutes()> 9 ? dtInicio.getMinutes() : `0${dtInicio.getMinutes()}`;
+      const is = dtInicio.getSeconds()> 9 ? dtInicio.getSeconds() : `0${dtInicio.getSeconds()}`;
+
+
+      const fD = dtFim.getDate() > 9 ? dtFim.getDate() : `0${dtFim.getDate()}`;
+      const fM = dtFim.getMonth()+1 > 9 ? dtFim.getMonth()+1 : `0${dtFim.getMonth()+1}`;
+      const fY = dtFim.getFullYear();
+
+      const fh = dtFim.getHours()> 9 ? dtFim.getHours() : `0${dtFim.getHours()}`;
+      const fm = dtFim.getMinutes()> 9 ? dtFim.getMinutes() : `0${dtFim.getMinutes()}`;
+      const fs = dtFim.getSeconds()> 9 ? dtFim.getSeconds() : `0${dtFim.getSeconds()}`;
+
+      const dh = (fh - ih)*60*60
+      const dm = (fm - im)*60
+      const ds = (fs - is)
+
+      // 5057 1 55 0.05 98.21 19 123-031 13:26:29 1 23-0-31 13:26:48
+      // id5154, err53, ac126, crt179, t126.35, tp88.94 p70.39, s85, dti2023-02-15 12:21:48, dtf2023-015-15 12:23:13 proces2023-1
+      dtInicioTxt = `${iY}-${iM}-${iD} ${ih}:${im}:${is}`
+      dtFimTxt = `${fY}-${fM}-${fD} ${fh}:${fm}:${fs}`
+
+      s = dh + dm + ds
+
+      return s
+    }
+
+
+    $("#digitacao").keyup(function(e){
+        const digito = $(this).text();
+        tamanhoDigito = digito.length-1;
+        const frase = $('#frase_escolhida').text();
+        tamanhoFrase = frase.length;
+        
+        const key = e.keyCode;
+        // console.log(digito, frase, tamanhoDigito)
+
+        if(digito[tamanhoDigito] !== " " && frase[tamanhoDigito] !== " "){
+            if(digito[tamanhoDigito] !== frase[tamanhoDigito]){
+                // console.log("D:"+digito[tamanhoDigito])
+                // console.log("F:"+frase[tamanhoDigito])
+                // console.log('diferente')
+                erros++
+            }
+            // verificar crtl e shift
+            caracteres++
+
+            // verificar enter e tamanhoDigito do texto
+
+        } else {
+          caracteres++
+        }
+
+        if(key === 16 || key === 17 || key === 20 || key === 8) {
+          caracteres--
+        }
+
+        if(key === 13){
+          if(tamanhoDigito >= tamanhoFrase-20){
+            $("#digitacao").text("")
+            tamanhoDigito = 0
+            tamanhoFrase = 0            
+            gerarFrase()
+          }
+        }
+        console.log(tamanhoDigito, tamanhoFrase)
+        if ((e.which || e.keyCode) == 116 || (e.which || e.keyCode) == 82) e.preventDefault();
+        // console.log("Erros"+erros)
+        // console.log("Caract"+caracteres)
+        
+        console.log(dtFimTxt, dtInicioTxt)
+        calcularTempo()
+        relatorioParcial()
+
+    })
+
+    // alternancia de frases conforme tamanho definido
+
+
+
+    </script>
+
+
+
+<?= $this->inlineScript()
+            ->prependFile($this->basePath('js/bootstrap.min.js'))
+            ->prependFile($this->basePath('js/jquery-3.5.1.min.js')) ?>

@@ -1,0 +1,32 @@
+<?php
+/**
+ * @var Laminas\View\Renderer\PhpRenderer $this
+ */
+// dd($candidate->getNome());
+
+//  dd($candidate->getCpf());
+?>
+<div class="jumbotron">
+    <h1 class="display-4">Welcome candidate for typing</h1>
+
+    <?php
+        if(isset($msg)) {
+            ?>
+                <div class="alert alert-info"><?= $msg ?></div>
+            <?php
+        }
+    ?>
+
+    <form action="/save" method="POST">
+        <div class="row">
+            <div class="col-md-6">
+                <input type='text' class="form-control" name="cpf" value="<?= $candidate->getNome() ?>" placeholder="Digite o número do seu CPF, para começar"/>
+                <input type='text' class="form-control" name="name" value="<?= $candidate->getCpf() ?>" placeholder="Digite o número o nome"/>
+                <input type='hidden' name="id" value="<?= $candidate->getId() ?>" />
+            </div>
+            <div class="col-md-6">
+                <input type="submit" value="enviar"  class="form-control">
+            </div>
+        </div>
+    </form>
+</div>

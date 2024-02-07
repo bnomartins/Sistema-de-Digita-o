@@ -1,0 +1,12 @@
+<?php
+/**
+ * @var Laminas\View\Renderer\PhpRenderer $this
+ */
+if(isset($msg)) {
+   ?>
+    <?= $msg ?>
+   <?php
+} else {
+    echo "Não foi possível realizar a alteração do candidato";
+}
+?>

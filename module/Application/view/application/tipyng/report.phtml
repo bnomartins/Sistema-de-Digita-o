@@ -1,0 +1,69 @@
+<?php
+/**
+ * @var Laminas\View\Renderer\PhpRenderer $this
+ */
+
+use Application\Custom\Convert;
+
+// if(isset($msg)){
+//   echo $msg;
+// }
+
+// dd($candidate, $typing);
+?>
+  <fieldset>
+    
+    <legend class="text-center display-5 fw-bold">Resultado - Teste de Digitação</legend>
+    
+  
+      <div class="col-sm-8 py-5 mx-auto">
+          <h1 class="display-5 fw-normal"><?= !empty($candidate->getSocial()) ? $candidate->getSocial() : $candidate->getNome() ?></h1>
+          <p class="fs-5">Agradecemos pelo seu esforço no teste de digitação. Abaixo encontra-se o seu resultado. O resultado geral estará disponível em alguns dias.</p>
+      </div>
+    
+    <div class="row">
+      <div class="col-md-6">
+      <ul class="list-group list-group-flush">
+      <li class="list-group-item h4">Data de Início: <small class="text-muted"><?= Convert::dateBrlFull($typing->getInicio()) ?></small></li>
+      <li class="list-group-item h4">Data de Termino: <small class="text-muted"><?= Convert::dateBrlFull($typing->getTermino()) ?></small></li>
+      <li class="list-group-item h4">Total de Caracteres Digitado: <small class="text-muted"><?= $typing->getCharacters() ?></small></li>
+      <li class="list-group-item h4">Total de Erros: <small class="text-muted"><?= $typing->getErrors() ?></small></li>
+      <li class="list-group-item h4">Total de Acertos: <small class="text-muted"><?= $typing->getHits() ?></small></li>
+      <li class="list-group-item h4">Teclas por Minuto (TPM): <small class="text-muted"><?= $typing->getTpm() ?></small></li>
+      <li class="list-group-item h4">Precisão: <small class="text-muted"><?= $typing->getPrecisao() ?> %</small></li>
+      <li class="list-group-item h4">Segundos: <small class="text-muted"><?= $typing->getSeconds() ?> s</small></li>
+    </ul>
+
+      </div>
+      <div class="col-md-6">
+        </br>
+        <div id="chart"></div>
+      </div>
+    </div>
+
+  
+    </fieldset>
+
+    <script>
+      var options = {
+            series: [{
+            name: 'Series 1',
+            data: [<?= $typing->getTpm() ?>, <?= $typing->getPrecisao() ?>, <?= $typing->getCharacters() ?>, <?= $typing->getErrors() ?>, <?= $typing->getHits() ?>],
+          }],
+            chart: {
+            height: 350,
+            type: 'radar',
+          },
+          title: {
+            text: 'Performance Individual',
+            align: 'center'
+          },
+          xaxis: {
+            categories: ['TPM', 'Precisão', 'Caract.', 'Erros', 'Acertos']
+          }
+          };
+  
+          var chart = new ApexCharts(document.querySelector("#chart"), options);
+          chart.render();
+    </script>  
+

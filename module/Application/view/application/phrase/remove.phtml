@@ -1,0 +1,14 @@
+<?php
+/**
+ * @var Laminas\View\Renderer\PhpRenderer $this
+ */
+?>
+    <?php
+        if(isset($msg)){
+            echo $msg;
+        }
+    ?>
+
+<?= $this->inlineScript()
+            ->prependFile($this->basePath('js/bootstrap.min.js'))
+            ->prependFile($this->basePath('js/jquery-3.5.1.min.js')) ?>

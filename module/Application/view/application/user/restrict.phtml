@@ -1,0 +1,90 @@
+<?php
+/**
+ * @var Laminas\View\Renderer\PhpRenderer $this
+ */
+?>
+
+
+<div class="container">
+
+<div class="row justify-content-md-center" style="margin-top: 100px;">
+    <div class="col col-lg-3">
+    </div>
+    <div class="col-md-auto col-md-6 jumbotron">
+        <h1 class="text-center">Acesso Restrito</h1></br>
+            
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf" placeholder="Digite o seu CPF" class="form-control" required/>
+            
+            <label for="cpf">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite a sua senha" class="form-control" required/>
+            
+
+
+    </br>
+
+    <?php
+        if(isset($_session['user']['nome'])){
+            ?>
+                <div class="alert alert-info"><?= $_session['user']['nome'] ?></div></br>
+                ?>
+            <?php
+        }
+        if(isset($_SESSION['msg'])){
+            if(!empty($_SESSION['msg'])){
+                ?>
+                    <div class="alert alert-info"><?= $_SESSION['msg']?></div></br>
+                    <?php unset($_SESSION['msg']); ?>
+
+                <?php
+            }
+            }
+    ?>           
+
+            <button class="form-control btn btn-primary" id="btnLogin">OK</button>
+        </div>
+    <div class="col col-lg-3">
+    </div>
+</div>
+
+
+<?= $this->inlineScript()
+            ->prependFile($this->basePath('js/bootstrap.min.js'))
+            ->prependFile($this->basePath('js/jquery-3.5.1.min.js')) ?>
+
+
+<script>
+
+$(document).ready(function(){
+    $("#cpf").mask("99999999999");
+})
+
+
+$("#btnLogin").click(function(){
+    const cpf = $("#cpf").val()
+    const senha = $("#senha").val()
+    if(cpf && senha){
+        $.ajax({ 
+            type : 'POST', 
+            url : '/application/adm/restrict',
+            data : {cpf, senha},
+            dataType: 'html',
+            success: function(data){  
+                alertify.alert('Aviso', `${data}`);
+                // $('#msgDelete'+id).html(`<div class="alert alert-info alert-dismissible" role="alert">${data}<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>`)
+            },
+            error: function(jqXHR,textStatus,errorThrown){
+                var error = $.parseJSON(jqXHR.responseText);
+                var content = error.content;
+                console.log(content.message);
+                if(content.display_exceptions)
+                console.log(content.exception.xdebug_message);
+            },
+        
+        }) ;    
+    } else {
+        alertify.alert('Aviso', `Campos de preenchimento obrigatório!`);
+    }
+})
+    // })
+</script>

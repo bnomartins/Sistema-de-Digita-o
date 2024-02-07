@@ -1,0 +1,53 @@
+#digitacao {
+    padding: 20px;
+    background-color:azure;
+    height: 200px;
+    color:tomato;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
+
+}
+
+#frase_escolhida {
+    padding: 20px;
+    background-color: antiquewhite;
+    height: 200px;
+    color:tomato;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
+
+}
+
+#titulo{
+    margin: 25px;
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    color: black;
+    font-weight: bold;
+    font-size:60px;
+    background-clip: text;
+    -webkit-background-clip: text;
+  
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;    
+}
+
+#aviso_inicio {
+    padding: 20px;
+    background-color: antiquewhite;
+    height: 300px;
+    color:tomato;
+    font-weight: bold;
+    font-size: 30px;
+    border: 2px solid gray;
+}
+#btn_iniciar {
+    margin: 10px;
+}
+
+#btn_proxima_frase {
+    margin: 10px;
+}
