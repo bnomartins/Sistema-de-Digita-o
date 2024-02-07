@@ -3,7 +3,7 @@
 ### Este é um sistema de gerenciamento de candidatos / This system manages the candidates' typing test
 
 
-<img src="/apresentacao.gif" style="width:600px">
+<img src="/apresentacao.gif" style="width:900px">
 
 ### Recursos / Features:
 [x] Gerenciamento de Candidatos; Candidate management;
