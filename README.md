@@ -6,9 +6,9 @@
 <img src="/apresentacao.gif" style="width:900px">
 
 ### Recursos / Features:
-[x] Gerenciamento de Candidatos; Candidate management;
-[x] Gerenciamento de Usuários; User management; Phrase management; 
-[x] Aplicação de teste com métricas de desempenho de teclas digitadas por minuto TPM, Precisão, erros, acertos, total de teclas digitadas, horário de início, horário de término; Application of the test with performance metrics of keystrokes per minute TPM, Precision, errors, successes, total keystrokes, start time, end time.
+- [x] Gerenciamento de Candidatos; Candidate management;
+- [x] Gerenciamento de Usuários; User management; Phrase management; 
+- [x] Aplicação de teste com métricas de desempenho de teclas digitadas por minuto TPM, Precisão, erros, acertos, total de teclas digitadas, horário de início, horário de término; Application of the test with performance metrics of keystrokes per minute TPM, Precision, errors, successes, total keystrokes, start time, end time.
 
 ## Instrução de Uso para o Candidato / Instruction for candidate use 
 - O usuário irá se cadastrar para fazer o teste na Área do candidato / The user will register to take the test in the candidate's Area;;
